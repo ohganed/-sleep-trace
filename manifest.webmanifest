@@ -1,0 +1,11 @@
+{
+  "name": "Sleep Trace 今夜版",
+  "short_name": "Sleep Trace",
+  "description": "枕元のiPhoneで夜間の音と静けさを端末内に記録します。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090812",
+  "theme_color": "#090812",
+  "orientation": "portrait-primary"
+}
