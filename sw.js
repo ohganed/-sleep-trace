@@ -1,9 +1,10 @@
-const CACHE_NAME = "sleep-trace-cache-v1";
+const CACHE_NAME = "sleep-trace-cache-v2";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./deployment.config.json",
+  "./storage-layer.js",
   "./icons/icon-180.svg",
   "./icons/icon-192.svg",
   "./icons/icon-512.svg"
