@@ -2,10 +2,16 @@
   "name": "Sleep Trace 今夜版",
   "short_name": "Sleep Trace",
   "description": "枕元のiPhoneで夜間の音と静けさを端末内に記録します。",
+  "lang": "ja",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#090812",
   "theme_color": "#090812",
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"./icons/icon-180.svg","sizes":"180x180","type":"image/svg+xml","purpose":"any"},
+    {"src":"./icons/icon-192.svg","sizes":"192x192","type":"image/svg+xml","purpose":"any"},
+    {"src":"./icons/icon-512.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
+  ]
 }
