@@ -24,5 +24,9 @@
     "target": "github-pages",
     "basePathPolicy": "relative"
   },
-  "icons": []
+  "icons": [
+    "./icons/icon-180.svg",
+    "./icons/icon-192.svg",
+    "./icons/icon-512.svg"
+  ]
 }
