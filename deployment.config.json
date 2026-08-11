@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.1",
+  "appId": "sleep-trace",
+  "name": "Sleep Trace 今夜版",
+  "shortName": "Sleep Trace",
+  "version": "0.1.0",
+  "startUrl": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "themeColor": "#090812",
+  "backgroundColor": "#090812",
+  "serviceWorker": {
+    "enabled": true,
+    "path": "./sw.js",
+    "cacheVersion": "v1",
+    "offlinePolicy": "cache-first-static"
+  },
+  "storage": {
+    "policy": "local-only",
+    "technology": "localStorage"
+  },
+  "deployment": {
+    "target": "github-pages",
+    "basePathPolicy": "relative"
+  },
+  "icons": []
+}
