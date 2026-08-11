@@ -75,4 +75,9 @@
     readEnvelope,
     mirrorNow(){const value=readLegacy();return value?writeEnvelope(value,"manual-mirror"):false}
   };
+
+  const diagnostics=document.createElement("script");
+  diagnostics.src="./storage-diagnostics.js";
+  diagnostics.defer=true;
+  document.head.append(diagnostics);
 })();
